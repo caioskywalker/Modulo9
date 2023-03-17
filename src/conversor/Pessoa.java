@@ -31,7 +31,13 @@ public class Pessoa {
 		System.out.printf("%s %s %s\n", "Agora vamos converter a idade de", nome ,"para tipo complexo 'Long'.", "\n");
 
 		Long lauraCresceu = ++idadeDeLaura ;
-		System.out.printf("%s %s %d %s", nome ,"completou", lauraCresceu ,"anos! :).");
+		System.out.printf("%s %s %d %s \n", nome ,"completou", lauraCresceu ,"anos! :).");
+		
+		Long idadePedrinho = Long.valueOf(idadeDeLaura);
+		
+		System.out.printf("Pedrinho tem mesma idade de Laura " + idadePedrinho + " anos");
+				
+				
 		
 		
 		
